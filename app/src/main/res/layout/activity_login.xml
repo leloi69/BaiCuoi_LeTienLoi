@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="45sp"/>
+
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="@drawable/round_edit_text"
+            android:hint="Tên đăng nhập"
+            android:layout_margin="10dp"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="#FFFFFF"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/ed2"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="@drawable/round_edit_text"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:textColorHint="#FFFFFF"
+            android:gravity="center"/>
+
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:text="Đăng nhập"
+            android:id="@+id/btnLogin"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/round_button"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:text="Đăng ký"
+            android:id="@+id/btnRegis"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/round_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>

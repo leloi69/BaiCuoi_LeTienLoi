@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "282503549747",
+    "project_id": "lastexamletienloi",
+    "storage_bucket": "lastexamletienloi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282503549747:android:7edc20d9f118912221a446",
+        "android_client_info": {
+          "package_name": "com.example.lastexam_letienloi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282503549747-dd4iktl6juh3341fbmfjca5h8dvbqcgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzrGWAUYZBzdbb_KcG3oWZTsjH82fHqFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282503549747-dd4iktl6juh3341fbmfjca5h8dvbqcgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
