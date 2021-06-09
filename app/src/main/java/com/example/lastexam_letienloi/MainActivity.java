@@ -23,17 +23,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        Intent intent = getIntent();
-//        User u1 = (User) intent.getSerializableExtra("user");
-//        String email = u1.getName();
-//        String pass = u1.getPass();
-//        Intent intent = getIntent();
-//        User u1 = (User) intent.getSerializableExtra("user");
-//        if (u1.getName() != null) {
-//            SharedPreferences.Editor editor = getSharedPreferences(global, MODE_PRIVATE).edit();
-//            editor.putString("name", u1.getName());
-//            editor.apply();
-//        }
         vp =findViewById(R.id.viewp);
         td = new TabAdapter(getSupportFragmentManager(), TabAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         vp.setAdapter(td);
@@ -56,9 +45,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.thongtin:
                 Intent intent = new Intent(MainActivity.this, UserProfile.class);
                 startActivity(intent);
+                break;
             case R.id.thoat:
                 Intent intentt = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intentt);
+                break;
         }
         return true;
     }
